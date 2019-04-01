@@ -1,0 +1,421 @@
+#CountryContainer {
+	height:450px;
+	width:100%;
+	margin-top:0px;
+	margin-left: 0px;
+	position:relative;
+	border-style:solid;
+	border-color: blue;
+}
+
+#MoldovaContainer{
+	width:50%;
+	height:100%;
+	position:absolute;
+	/*border-style: solid;*/
+	background-image: url('./images/Moldova.jpg');
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	display:block;
+}
+
+.Moldova{
+	margin: auto;
+	margin-top: 200px;
+	width:400px;
+	/*border-style: solid;*/
+}
+
+.Moldova p{
+ 	color: red;
+ 	text-align: center;
+}
+
+.Mleft{
+	position:absolute;
+	width:50%;
+	height:100%;
+	display:inline-flex;
+	border-style: solid;
+	background-color: #FFD200;
+	background-size: 73%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.MoldovaHeader{
+	position:absolute;
+	font-family: 'Coiny', cursive;
+	margin-top: 110px;
+	margin-left: 260px;
+	text-decoration: underline;
+}
+
+.Mtext{
+	position:absolute;
+	width:500px;
+	margin-left: 90px;
+	margin-top: 180px;
+}
+
+.Mtext h2{
+	text-decoration: underline;
+	text-align:center;
+}
+
+.Mtext p{
+	text-align: center;
+	font-family: 'Raleway', cursive;
+}
+
+.CountryBContainer {
+	height:450px;
+	width:100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	position:relative;
+	/*border-style:solid;*/
+	border-color: red;
+}
+
+.BashkirsContainers{
+	width:50%;
+	height:100%;
+	position:absolute;
+	/*border-style: solid;*/
+	background: #399EC5;
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	display:block;
+}
+
+.Bashkirs{
+	margin: auto;
+	margin-top: 200px;
+	width:400px;
+	/*border-style: solid;*/
+}
+
+.Bashkirs p{
+ 	color: red;
+ 	text-align: center;
+}
+
+.Bleft{
+	width:50%;
+	height:100%;
+	float:right;
+	/*border-style: solid;*/
+	background-image: url('./images/Bashkiria.jpg');
+	background-size: 73%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.BashkirsHeader{
+	position: absolute;
+	font-family: 'Coiny', cursive;
+	margin-top: 130px;
+	margin-left: 260px;
+	text-decoration: underline;
+}
+
+.Btext{
+	position:absolute;
+	width:500px;
+	margin-left: 90px;
+	margin-top: 190px;
+}
+
+.Btext h2{
+	text-decoration: underline;
+	text-align:center;
+}
+
+.Btext p{
+	text-align: center;
+	font-family: 'Raleway', cursive;
+}
+
+.testBox{
+	height:400px;
+	width:400px;
+	margin: auto;
+	background-color: grey;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+@media (max-width: 600px){
+	#CountryContainer {
+	height:100vh;
+	width:100%;
+	margin-top:0px;
+	margin-left: 0px;
+	position:relative;
+	border-style:solid;
+	border-color: blue;
+	display: inline-flex;
+}
+
+#MoldovaContainer{
+	width:100%;
+	height:50%;
+	position:absolute;
+	border-style: solid;
+	background-image: url('./images/Moldova.jpg');
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	flex-wrap: wrap;
+}
+.Mleft{
+	position:absolute;
+	width:100%;
+	height:50%;
+	margin-top: 60%;
+	border-style: solid;
+	border-color: orange;
+	background-color: #FFD200;
+	background-size: 73%;
+	background-position: center;
+	background-repeat: no-repeat;
+	flex-wrap: wrap;
+}
+.MoldovaHeader{
+	position:absolute;
+	font-family: 'Coiny', cursive;
+	margin-top: 5.234%;
+	margin-left: 36.234%;
+	text-decoration: underline;
+	border-style: solid;
+}
+
+.Mtext{
+	position:absolute;
+	width:100%;
+	margin-left: 0px;
+	margin-top: 15%;
+}
+
+.Mtext h2{
+	text-decoration: underline;
+	text-align:center;
+}
+
+.Mtext p{
+	text-align: center;
+	font-family: 'Raleway', cursive;
+}
+
+/*---------------------*/
+.CountryBContainer {
+	height:100vh;
+	width:100%;
+	margin-top:0px;
+	margin-left: 0px;
+	position:relative;
+	border-style:solid;
+	border-color: blue;
+	display: inline-flex;
+}
+
+.BashkirsContainers{
+	width:100%;
+	height:50%;
+	margin-top: 52%;
+	position:absolute;
+	border-style: solid;
+	background: #399EC5;
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	display:block;
+}
+
+.Bashkirs{
+	margin: auto;
+	margin-top: 200px;
+	width:400px;
+	border-style: solid;
+}
+
+.Bashkirs p{
+ 	color: red;
+ 	text-align: center;
+}
+
+.Bleft{
+	width:100%;
+	height:50%;
+	float:right;
+	border-style: solid;
+	background-image: url('./images/Bashkiria.jpg');
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.BashkirsHeader{
+	position: absolute;
+	font-family: 'Coiny', cursive;
+	margin-top: 5.234%;
+	margin-left: 36.234%;
+	text-decoration: underline;
+}
+
+.Btext{
+	position:absolute;
+	width:100%;
+	margin-left: 0px;
+	margin-top: 15%;
+}
+
+.Btext h2{
+	text-decoration: underline;
+	text-align:center;
+}
+
+.Btext p{
+	text-align: center;
+	font-family: 'Raleway', cursive;
+}
+
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}

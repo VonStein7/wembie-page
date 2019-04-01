@@ -1,0 +1,331 @@
+.FoodContainer{
+	position:relative;
+	height:650px;
+	border-top: solid;
+	display: inline-block;
+}
+
+.Descriptions1{
+	width:100%;
+	height: auto;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	text-decoration: bold;
+	color: black;
+	background: rgb(255,250,250,.5);
+	z-index: 1;
+}
+
+.Descriptions3{
+	width:100%;
+	height: auto;
+	top: 0;
+	left: 0;
+	position: absolute;
+	text-decoration: bold;
+	color: black;
+	background: rgb(255,250,250,.5);
+	z-index: 1;
+}
+
+.info1 h1{
+	color: purple;
+	padding-top: 15px;
+	text-decoration: underline dotted navy;
+}
+
+.info3{
+	margin-top:10px;
+}
+
+.Descriptions2{
+	width:100%;
+	height: 100px;
+	position: absolute;
+	text-decoration: bold;
+	color: black;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.info2 p{
+	margin-bottom: 10px;	
+}
+
+.info2 h2{
+	font-family: 'Coiny', cursive;
+	color:red;
+	padding-top: 10px;
+	text-decoration: underline navy;
+}
+
+.Item1:hover .Child,
+.Item1:focus .Child{
+	transform: scale(1.2);
+}
+
+
+.Item1{
+	position:relative;
+	height:400px;
+	width:430px;
+	margin: 0 auto;
+	/*background-image: url('./images/waffle topdown.jpg');
+	background-size: cover;
+	background-position: 20% 50%;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+	display: inline-flex;
+	border-style: solid;
+	border-color: navy;
+	border-radius: 20px;
+}
+
+.Child{
+	width:100%;
+	height:100%;
+	background-image: url('./images/waffle topdown.jpg');
+	background-size: cover;
+	background-position: 20% 50%;
+	transition: all .3s;
+}
+
+.Item2{
+	position:absolute;
+	height:400px;
+	width:429px;
+	top:0px;
+	left:0px;
+	/*background-image: url('./images/vvembie donuts.jpg');
+	background-size: cover;
+	background-position: center;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+	border-color: navy;
+	border-bottom: 20px;
+	border-top-right-radius: 18px;
+	border-top-left-radius: 16px;
+	display: inline-flex;
+}
+
+.Item2:hover .Child2,
+.Item2:focus .Child2{
+	transform: scale(1.2);
+}
+
+.Child2{
+	width:100%;
+	height:100%;
+	background-image: url('./images/vvembie donuts.jpg');
+	background-size: cover;
+	background-position: center;
+	transition: all .3s;
+}
+
+.LocationContainer{
+	width:100%;
+	position: relative;
+	margin-top: 50px;
+	display:inline-block;
+	border-style: solid;
+	height:455px;
+}
+
+.box{
+	position: relative;
+	background-image: url('./images/qnmarket.jpg');
+	width:40%;
+	margin-right: 10px;
+	background-size: cover;
+	background-position:  20% 30%;
+	display: inline-flex;
+	border-style: solid;
+}
+
+.BoxInfo{
+	margin: 0 auto;
+	margin-top: 60px;
+	position: relative;
+	width:30%;
+	height:70%;
+	background: rgb(255,255,255,.5);
+	border-style: solid;
+}
+
+.BoxInfo h2{
+	font-family: 'Coiny', cursive;
+	font-weight: bold;
+	color: navy;
+	text-decoration: underline;
+	margin-top: auto;
+	padding-top: 20px;
+	font-size:2.5vw;
+}
+
+.BoxInfo h3{
+	font-family: 'Coiny', cursive;
+	font-weight: bold;
+	color: red;
+	text-decoration: underline;
+	margin-top: 30px;
+	font-size:2.5vw;
+}
+
+.BoxInfo p{
+	font-size:1.2vw;
+}
+
+.ProductCard{
+	height:500px;
+	width:436px;
+	position: relative;
+	margin: 0 auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+	display: inline-flex;
+	border-style: solid;
+	border-color: navy;
+	border-radius: 20px;
+	border-width: 3px;
+	margin-top: 50px;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}

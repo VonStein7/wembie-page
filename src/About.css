@@ -1,0 +1,546 @@
+#About {
+  width:100%; 
+  height: 500vh;
+  margin-top:40px;
+  position:relative;
+  border-color: red;
+  border-style: solid;
+}
+
+p{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+}
+
+h1{
+	color:red;
+	font-family: 'Coiny', cursive;
+}
+
+.Salutation{
+	font-size: 20px;
+	margin-right: 10%;
+  margin-bottom: 10%;
+	float:right;
+	font-family: 'Coiny', cursive;
+	color: gold;
+  position: relative;
+  /*border-style: solid;*/
+}
+
+.logo{
+	float:left;
+	width:auto;
+	height:auto;
+	z-index: -1;
+	margin-left: 100px;
+	position: absolute;
+	/*border-style:solid;*/
+}
+
+.logo img{
+  width:100%;
+}
+
+.Hero{
+	position:absolute;
+	width:600px;
+  max-width: 100%;
+	margin-top: 20%;
+	margin-left: 50%;
+	/*border-style:solid;*/
+}
+
+.Highlight{
+	color:navy;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+@media (max-width: 480px) {
+  #About {
+    width:100%; 
+    height: 120vh !important;
+    position:relative;
+    /*border-style:solid;*/
+  }
+
+  .Salutation{
+    font-size: 20px;
+    margin-right: 30px;
+    float:right;
+    font-family: 'Coiny', cursive;
+    color: gold;
+    position: relative;
+  }
+
+  .logo{
+    float:left;
+    width:100% !important;
+    height:auto;
+    z-index: -1;
+    margin-left: 0px;
+    margin-top: 40px;
+    position: relative;
+    /*border-style:solid;*/
+  }
+
+  .logo img{
+    width:100% !important;
+  }
+
+  .Hero{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    margin-top: 300px !important;
+    margin-left: 0px;
+  }
+}
+/*----------------------------------*/
+@media (max-width: 600px){
+  #About{
+    margin-bottom: 10px;
+    border-color: blue;
+  }
+  .Hero{
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 750px) {
+  #About{
+    height: 60vw;
+  }
+  .Salutation{
+    font-size: 20px;
+    margin-right: 30px;
+    float:right;
+    font-family: 'Coiny', cursive;
+    color: gold;
+    position: relative;
+  }
+
+  .logo{
+    float:left;
+    width:300px;
+    height:auto;
+    z-index: -1;
+    margin-left: 0px;
+    position: relative;
+  }
+
+  .logo img{
+    width:400px;
+  }
+
+  .Hero{
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align: center;
+    margin-top: 350px !important;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 850px){
+  #About{
+    height: 125vh !important;
+  }
+  .Hero{
+    padding-top: 40px;
+    position:absolute;
+    width:100%;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 1250px){
+  #About{
+    height: 110vh;
+  }
+  .Hero{
+    margin-left: 25%;
+  }
+}
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 360px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #About {
+    width:100%; 
+    height: 115vh !important;
+    position:relative;
+  }
+
+  .Salutation{
+    font-size: 20px;
+    margin-right: 30px;
+    float:right;
+    font-family: 'Coiny', cursive;
+    color: gold;
+    position: relative;
+  }
+
+  .logo{
+    float:left;
+    width:100% !important;
+    height:auto;
+    z-index: -1;
+    margin-left: 0px;
+    margin-top: 40px;
+    position: relative;
+  }
+
+  .logo img{
+    width:100% !important;
+  }
+
+  .Hero{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    margin-top: 300px !important;
+    margin-left: 0px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #About {
+    width:100%; 
+    height: 130vh;
+    position:relative;
+  }
+
+  .Salutation{
+    font-size: 20px;
+    margin-right: 30px;
+    float:right;
+    font-family: 'Coiny', cursive;
+    color: gold;
+    position: relative;
+  }
+
+  .logo{
+    float:left;
+    width:100% !important;
+    height:auto;
+    z-index: -1;
+    margin-left: 0px;
+    margin-top: 40px;
+    position: relative;
+  }
+
+  .logo img{
+    width:100% !important;
+  }
+
+  .Hero{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    margin-top: 300px !important;
+    margin-left: 0px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #About {
+    width:100%; 
+    height: 105vh !important;
+    position:relative;
+  }
+
+  .Salutation{
+    font-size: 20px;
+    margin-right: 30px;
+    float:right;
+    font-family: 'Coiny', cursive;
+    color: gold;
+    position: relative;
+  }
+
+  .logo{
+    float:left;
+    width:100% !important;
+    height:auto;
+    z-index: -1;
+    margin-left: 0px;
+    margin-top: 40px;
+    position: relative;
+  }
+
+  .logo img{
+    width:100% !important;
+  }
+
+  .Hero{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    margin-top: 300px !important;
+    margin-left: 0px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 411px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #About {
+    width:100%; 
+    height: 87vh !important;
+    position:relative;
+  }
+
+  .Salutation{
+    font-size: 20px;
+    margin-right: 30px;
+    float:right;
+    font-family: 'Coiny', cursive;
+    color: gold;
+    position: relative;
+  }
+
+  .logo{
+    float:left;
+    width:100% !important;
+    height:auto;
+    z-index: -1;
+    margin-left: 0px;
+    margin-top: 40px;
+    position: relative;
+  }
+
+  .logo img{
+    width:100% !important;
+  }
+
+  .Hero{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    margin-top: 300px !important;
+    margin-left: 0px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #About {
+    width:100%; 
+    height: 53vh !important;
+    position:relative;
+  }
+
+  .Salutation{
+    font-size: 20px;
+    margin-right: 30px;
+    float:right;
+    font-family: 'Coiny', cursive;
+    color: gold;
+    position: relative;
+  }
+
+  .logo{
+    float:left;
+    width:100% !important;
+    height:auto;
+    z-index: -1;
+    margin-left: 0px;
+    margin-top: 40px;
+    position: relative;
+  }
+
+  .logo img{
+    width:100% !important;
+  }
+
+  .Hero{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    margin-top: 300px !important;
+    margin-left: 0px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #About {
+    width:100%; 
+    height: 50vh !important;
+    position:relative;
+  }
+
+  .Salutation{
+    font-size: 20px;
+    margin-right: 30px;
+    float:right;
+    font-family: 'Coiny', cursive;
+    color: gold;
+    position: relative;
+  }
+
+  .logo{
+    float:left;
+    width:100% !important;
+    height:auto;
+    z-index: -1;
+    margin-left: 0px;
+    margin-top: 40px;
+    position: relative;
+  }
+
+  .logo img{
+    width:100% !important;
+  }
+
+  .Hero{
+    position:absolute;
+    width:50%;
+    text-align: center;
+    margin-top: 340px !important;
+    margin-left: 450px;
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}

@@ -1,28 +1,50 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import Nav from './navBar.js';
+import About from './About.js';
+import Food from './products.js';
+import FindUs from './findUs.js';
+import Share from './share.js';
+import Culture from './culture.js';
+import CultureBash from './cultureBash.js';
+import Desserts from './desserts.js';
+import Location from './location.js';
+import Market from './market.js';
+import Footer from './footer.js';
+
+import AOS from 'aos';
+import './dist/aos.css';
+import Axios from 'axios';
+
+
 class App extends Component {
+  componentDidMount(){
+    AOS.init({
+      duration:1500
+    })
+  }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+        <header>
+          <Nav className="nav"/>
         </header>
+          <div>
+            <About />
+          </div>
+          <Market />
+          <Culture/> 
+          <CultureBash />
+          <Food />
+          <Desserts />
+        <Location />
+        <Share />
+        <Footer />
       </div>
     );
   }
 }
 
 export default App;
+
